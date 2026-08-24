@@ -1,0 +1,54 @@
+# Maven
+/target/
+*.jar
+*.zip
+
+# Arquivos gerados pela aplicacao
+/logs/*
+!/logs/.gitkeep
+/output/pdf/*
+!/output/pdf/.gitkeep
+/samples/input/*
+!/samples/input/.gitkeep
+/samples/output/*
+!/samples/output/.gitkeep
+*.log*
+*.lck
+*.error.txt
+*.pdf
+
+# Estado local do monitor e pastas do spool
+**/.nfce-printer/
+**/Original/
+**/Preview/
+**/Processado/
+**/Impresso/
+**/Erro/
+**/Duplicado/
+
+# Configuracoes locais e credenciais
+.env
+.env.*
+*.bak
+*.bak-*
+*.p12
+*.pfx
+*.jks
+*.keystore
+
+# IDEs e sistema operacional
+.idea/
+.vscode/
+.settings/
+.classpath
+.project
+*.iml
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Temporarios
+/tmp/
+*.tmp
+*.swp
+*~
