@@ -24,10 +24,10 @@ jobs:
           set -euo pipefail
           mkdir .bootstrap
           unzip -q nfce-thermal-printer-matheus-v0.5.0.zip -d .bootstrap
+          rm -rf .bootstrap/nfce-thermal-printer/.github
           cp -a .bootstrap/nfce-thermal-printer/. .
           rm -rf .bootstrap
           rm -f nfce-thermal-printer-matheus-v0.5.0.zip
-          rm -f .github/workflows/bootstrap-import.yml
 
       - name: Criar commit
         shell: bash
