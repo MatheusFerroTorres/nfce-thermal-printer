@@ -1,6 +1,3 @@
-<p align="center">
-  <img src="src/main/resources/assets/alkhemylab-logo-thermal.png" alt="AlkhemyLab" width="360">
-</p>
 
 <h1 align="center">NFC-e Thermal Printer</h1>
 
